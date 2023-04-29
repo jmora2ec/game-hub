@@ -12,6 +12,6 @@ export interface Genre {
 //const useGenres = () => useData<Genre>("/genres");
 
 //using static data, wrap in () for return object or use return{} inside {} wrap
-const useGenres = () => ({ data: genres, isloading: false, error: null });
+const useGenres = () => ({ data: genres, isLoading: false, error: null });
 
 export default useGenres;
